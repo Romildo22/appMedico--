@@ -1,0 +1,18 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>recuperar-senha</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-col>
+
+    <ion-item>
+      <ion-label stacked>Email</ion-label>
+      <ion-input type="text" [(ngModel)]="email"></ion-input>
+    </ion-item>
+
+    <button ion-button block (click)="recuperarSenha()" > solicitar </button>
+  
+  </ion-col>
+</ion-content>
